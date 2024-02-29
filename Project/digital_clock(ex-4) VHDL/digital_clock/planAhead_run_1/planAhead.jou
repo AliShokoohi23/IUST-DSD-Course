@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Nov 25 10:46:00 2023
+# Process ID: 5320
+# Log file: C:/Users/Ali/Downloads/digital_clock/digital_clock/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Ali/Downloads/digital_clock/digital_clock/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Ali/Downloads/digital_clock/digital_clock/pa.fromNetlist.tcl

@@ -1,0 +1,12 @@
+V3 6
+FL C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.vhd 2023/11/25.10:52:57 P.20131013
+AR work/DCLOCK/Behavioral 1700896830 \
+      FL C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.vhd \
+      EN work/DCLOCK 1700896829
+EN work/ex4 1700896980 \
+      FL C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ex4/Behavioral 1700896981 \
+      FL C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.vhd \
+      EN work/ex4 1700896980
+FL E:/University/playground/CA_LAB/digital_clock/DCLOCK.vhd 2023/10/31.11:02:17 P.20131013

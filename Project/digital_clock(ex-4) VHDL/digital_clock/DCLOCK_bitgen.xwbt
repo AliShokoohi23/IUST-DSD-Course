@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Ali\Downloads\digital_clock\digital_clock\DCLOCK.ncd
+OUTFILE=C:\Users\Ali\Downloads\digital_clock\digital_clock\DCLOCK.bit
+FAMILY=Spartan3
+PART=xc3s400-5pq208
+WORKINGDIR=C:\Users\Ali\Downloads\digital_clock\digital_clock
+LICENSE=WebPack
+USER_INFO=__0_0_0

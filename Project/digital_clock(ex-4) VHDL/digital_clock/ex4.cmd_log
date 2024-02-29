@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Ali/Downloads/digital_clock/digital_clock/ex4.xst" -ofn "C:/Users/Ali/Downloads/digital_clock/digital_clock/ex4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 ex4.ngc ex4.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o ex4_map.ncd ex4.ngd ex4.pcf 
+par -w -intstyle ise -ol high -t 1 ex4_map.ncd ex4.ncd ex4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ex4.twx ex4.ncd -o ex4.twr ex4.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f ex4.ut ex4.ncd 

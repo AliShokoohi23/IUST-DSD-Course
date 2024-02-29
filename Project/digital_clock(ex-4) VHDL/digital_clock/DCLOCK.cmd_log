@@ -1,0 +1,79 @@
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 DCLOCK.ngc DCLOCK.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DCLOCK_map.ncd DCLOCK.ngd DCLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 DCLOCK_map.ncd DCLOCK.ncd DCLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCLOCK.twx DCLOCK.ncd -o DCLOCK.twr DCLOCK.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f DCLOCK.ut DCLOCK.ncd 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 DCLOCK.ngc DCLOCK.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DCLOCK_map.ncd DCLOCK.ngd DCLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 DCLOCK_map.ncd DCLOCK.ncd DCLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCLOCK.twx DCLOCK.ncd -o DCLOCK.twr DCLOCK.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f DCLOCK.ut DCLOCK.ncd 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 DCLOCK.ngc DCLOCK.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DCLOCK_map.ncd DCLOCK.ngd DCLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 DCLOCK_map.ncd DCLOCK.ncd DCLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCLOCK.twx DCLOCK.ncd -o DCLOCK.twr DCLOCK.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f DCLOCK.ut DCLOCK.ncd 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 DCLOCK.ngc DCLOCK.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DCLOCK_map.ncd DCLOCK.ngd DCLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 DCLOCK_map.ncd DCLOCK.ncd DCLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCLOCK.twx DCLOCK.ncd -o DCLOCK.twr DCLOCK.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f DCLOCK.ut DCLOCK.ncd 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 DCLOCK.ngc DCLOCK.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DCLOCK_map.ncd DCLOCK.ngd DCLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 DCLOCK_map.ncd DCLOCK.ncd DCLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCLOCK.twx DCLOCK.ncd -o DCLOCK.twr DCLOCK.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f DCLOCK.ut DCLOCK.ncd 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 DCLOCK.ngc DCLOCK.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DCLOCK_map.ncd DCLOCK.ngd DCLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 DCLOCK_map.ncd DCLOCK.ncd DCLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCLOCK.twx DCLOCK.ncd -o DCLOCK.twr DCLOCK.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f DCLOCK.ut DCLOCK.ncd 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 DCLOCK.ngc DCLOCK.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DCLOCK_map.ncd DCLOCK.ngd DCLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 DCLOCK_map.ncd DCLOCK.ncd DCLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCLOCK.twx DCLOCK.ncd -o DCLOCK.twr DCLOCK.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f DCLOCK.ut DCLOCK.ncd 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.xst" -ofn "E:/University/playground/CA_LAB/digital_clock/DCLOCK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 DCLOCK.ngc DCLOCK.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DCLOCK_map.ncd DCLOCK.ngd DCLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 DCLOCK_map.ncd DCLOCK.ncd DCLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCLOCK.twx DCLOCK.ncd -o DCLOCK.twr DCLOCK.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f DCLOCK.ut DCLOCK.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc3s400-pq208-5 DCLOCK.ngc DCLOCK.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DCLOCK_map.ncd DCLOCK.ngd DCLOCK.pcf 
+par -w -intstyle ise -ol high -t 1 DCLOCK_map.ncd DCLOCK.ncd DCLOCK.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCLOCK.twx DCLOCK.ncd -o DCLOCK.twr DCLOCK.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f DCLOCK.ut DCLOCK.ncd 
+xst -intstyle ise -ifn "C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.xst" -ofn "C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.xst" -ofn "C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.syr" 
+xst -intstyle ise -ifn "C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.xst" -ofn "C:/Users/Ali/Downloads/digital_clock/digital_clock/DCLOCK.syr" 
