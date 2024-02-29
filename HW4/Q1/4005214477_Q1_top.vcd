@@ -1,0 +1,518 @@
+$date
+	Mon Jan 08 15:49:55 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top_tb $end
+$var wire 1 ! Out_c $end
+$var wire 4 " Out_bits [3:0] $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 1 % EN $end
+$var reg 2 & c [1:0] $end
+$var reg 1 ' clk $end
+$scope module inst $end
+$var wire 4 ( A [3:0] $end
+$var wire 4 ) B [3:0] $end
+$var wire 1 % EN $end
+$var wire 2 * c [1:0] $end
+$var wire 1 ' clk $end
+$var wire 1 + out_c $end
+$var wire 4 , out_bits [3:0] $end
+$var wire 1 - A_less_than_B $end
+$var wire 1 . A_greater_than_B $end
+$var wire 1 / A_equal_B $end
+$var reg 4 0 Out_bits [3:0] $end
+$var reg 1 ! Out_c $end
+$scope module ins $end
+$var wire 1 % EN $end
+$var wire 2 1 c [1:0] $end
+$var wire 1 ' clk $end
+$var wire 1 - A_less_than_B $end
+$var wire 1 . A_greater_than_B $end
+$var wire 1 / A_equal_B $end
+$var reg 4 2 out_bits [3:0] $end
+$var reg 1 + out_c $end
+$upscope $end
+$scope module inst $end
+$var wire 4 3 A [3:0] $end
+$var wire 4 4 B [3:0] $end
+$var wire 4 5 less_than_bits [3:0] $end
+$var wire 4 6 greater_than_bits [3:0] $end
+$var wire 4 7 equal_bits [3:0] $end
+$var wire 1 - A_less_than_B $end
+$var wire 1 . A_greater_than_B $end
+$var wire 1 / A_equal_B $end
+$scope module comp_0 $end
+$var wire 1 8 A $end
+$var wire 1 9 A_equal_B $end
+$var wire 1 : A_greater_than_B $end
+$var wire 1 ; A_less_than_B $end
+$var wire 1 < B $end
+$upscope $end
+$scope module comp_1 $end
+$var wire 1 = A $end
+$var wire 1 > A_equal_B $end
+$var wire 1 ? A_greater_than_B $end
+$var wire 1 @ A_less_than_B $end
+$var wire 1 A B $end
+$upscope $end
+$scope module comp_2 $end
+$var wire 1 B A $end
+$var wire 1 C A_equal_B $end
+$var wire 1 D A_greater_than_B $end
+$var wire 1 E A_less_than_B $end
+$var wire 1 F B $end
+$upscope $end
+$scope module comp_3 $end
+$var wire 1 G A $end
+$var wire 1 H A_equal_B $end
+$var wire 1 I A_greater_than_B $end
+$var wire 1 J A_less_than_B $end
+$var wire 1 K B $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0K
+0J
+0I
+1H
+0G
+1F
+0E
+0D
+1C
+1B
+1A
+0@
+0?
+1>
+1=
+1<
+0;
+0:
+19
+18
+b1111 7
+b0 6
+b0 5
+b111 4
+b111 3
+bx 2
+b1 1
+bx 0
+1/
+0.
+0-
+bx ,
+x+
+b1 *
+b111 )
+b111 (
+0'
+b1 &
+1%
+b111 $
+b111 #
+bx "
+x!
+$end
+#15
+1+
+b0 "
+b0 0
+1'
+#20
+0'
+#25
+b111 "
+b111 0
+1!
+1'
+#30
+0'
+#35
+b111 "
+b111 0
+1'
+#40
+0'
+#45
+b111 "
+b111 0
+1'
+#50
+0'
+#55
+b111 "
+b111 0
+1'
+#60
+0'
+#65
+b111 "
+b111 0
+1'
+#70
+0'
+#75
+b111 "
+b111 0
+1'
+#80
+0'
+#85
+b111 "
+b111 0
+1'
+#90
+0'
+#95
+b111 "
+b111 0
+1'
+#100
+0'
+#105
+b111 "
+b111 0
+1'
+#110
+0'
+#115
+b111 "
+b111 0
+1'
+#120
+0'
+#125
+b111 "
+b111 0
+1'
+#130
+0'
+#135
+b111 "
+b111 0
+1'
+#140
+0'
+#145
+b111 "
+b111 0
+1'
+#150
+0'
+#155
+b111 "
+b111 0
+1'
+#160
+0'
+#165
+b111 "
+b111 0
+1'
+#170
+0'
+#175
+b111 "
+b111 0
+1'
+#180
+0'
+#185
+b111 "
+b111 0
+1'
+#190
+0'
+#195
+b111 "
+b111 0
+1'
+#200
+0'
+#205
+b111 "
+b111 0
+1'
+#210
+0'
+#215
+b111 "
+b111 0
+1'
+#220
+0'
+#225
+b111 "
+b111 0
+1'
+#230
+0'
+#235
+b111 "
+b111 0
+1'
+#240
+0'
+#245
+b111 "
+b111 0
+1'
+#250
+0'
+#255
+b111 "
+b111 0
+1'
+#260
+0'
+#265
+b111 "
+b111 0
+1'
+#270
+0'
+#275
+b111 "
+b111 0
+1'
+#280
+0'
+#285
+b111 "
+b111 0
+1'
+#290
+0'
+#295
+b111 "
+b111 0
+1'
+#300
+0'
+#305
+b111 "
+b111 0
+1'
+#310
+0'
+#330
+1-
+1.
+0>
+b10 5
+1@
+0/
+b101 7
+0H
+b1000 6
+1I
+0<
+0F
+08
+0=
+0B
+1G
+b0 &
+b0 *
+b0 1
+b10 $
+b10 )
+b10 4
+b1000 #
+b1000 (
+b1000 3
+#345
+b1000 "
+b1000 0
+1'
+#350
+0'
+#355
+b1000 "
+b1000 0
+1'
+#360
+0'
+#365
+b1000 "
+b1000 0
+1'
+#370
+0'
+#375
+b1000 "
+b1000 0
+1'
+#380
+0'
+#385
+b1000 "
+b1000 0
+1'
+#390
+0'
+#395
+b1000 "
+b1000 0
+1'
+#400
+0'
+#405
+b1000 "
+b1000 0
+1'
+#410
+0'
+#415
+b1000 "
+b1000 0
+1'
+#420
+0'
+#425
+b1000 "
+b1000 0
+1'
+#430
+0'
+#435
+b1000 "
+b1000 0
+1'
+#440
+0'
+#445
+b1000 "
+b1000 0
+1'
+#450
+0'
+#455
+b1000 "
+b1000 0
+1'
+#460
+0'
+#465
+b1000 "
+b1000 0
+1'
+#470
+0'
+#475
+b1000 "
+b1000 0
+1'
+#480
+0'
+#485
+b1000 "
+b1000 0
+1'
+#490
+0'
+#495
+b1000 "
+b1000 0
+1'
+#500
+0'
+#505
+b1000 "
+b1000 0
+1'
+#510
+0'
+#515
+b1000 "
+b1000 0
+1'
+#520
+0'
+#525
+b1000 "
+b1000 0
+1'
+#530
+0'
+#535
+b1000 "
+b1000 0
+1'
+#540
+0'
+#545
+b1000 "
+b1000 0
+1'
+#550
+0'
+#555
+b1000 "
+b1000 0
+1'
+#560
+0'
+#565
+b1000 "
+b1000 0
+1'
+#570
+0'
+#575
+b1000 "
+b1000 0
+1'
+#580
+0'
+#585
+b1000 "
+b1000 0
+1'
+#590
+0'
+#595
+b1000 "
+b1000 0
+1'
+#600
+0'
+#605
+b1000 "
+b1000 0
+1'
+#610
+0'
+#615
+b1000 "
+b1000 0
+1'
+#620
+0'
+#625
+b1000 "
+b1000 0
+1'
+#630
+0'
+#635
+b1000 "
+b1000 0
+1'
+#640
+0'

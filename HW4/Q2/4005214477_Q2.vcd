@@ -1,0 +1,37 @@
+$date
+	Tue Jan 16 15:22:34 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ms
+$end
+$scope module convert_decimal_to_BCD_tb $end
+$var wire 7 ! seg2 [6:0] $end
+$var wire 7 " seg1 [6:0] $end
+$var wire 8 # bcd [7:0] $end
+$var reg 7 $ decimal [6:0] $end
+$scope module inst $end
+$var wire 7 % decimal [6:0] $end
+$var wire 7 & seg2 [6:0] $end
+$var wire 7 ' seg1 [6:0] $end
+$var wire 8 ( bcd [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10011000 (
+b1111111 '
+b1111011 &
+b1100010 %
+b1100010 $
+b10011000 #
+b1111111 "
+b1111011 !
+$end
+#10

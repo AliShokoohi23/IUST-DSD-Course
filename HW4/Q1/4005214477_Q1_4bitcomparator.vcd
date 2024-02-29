@@ -1,0 +1,92 @@
+$date
+	Mon Jan 08 15:31:35 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module FourBitComparator_tb $end
+$var wire 1 ! A_less_than_B $end
+$var wire 1 " A_greater_than_B $end
+$var wire 1 # A_equal_B $end
+$var reg 4 $ A [3:0] $end
+$var reg 4 % B [3:0] $end
+$scope module inst $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 4 ( less_than_bits [3:0] $end
+$var wire 4 ) greater_than_bits [3:0] $end
+$var wire 4 * equal_bits [3:0] $end
+$var wire 1 ! A_less_than_B $end
+$var wire 1 " A_greater_than_B $end
+$var wire 1 # A_equal_B $end
+$scope module comp_0 $end
+$var wire 1 + A $end
+$var wire 1 , A_equal_B $end
+$var wire 1 - A_greater_than_B $end
+$var wire 1 . A_less_than_B $end
+$var wire 1 / B $end
+$upscope $end
+$scope module comp_1 $end
+$var wire 1 0 A $end
+$var wire 1 1 A_equal_B $end
+$var wire 1 2 A_greater_than_B $end
+$var wire 1 3 A_less_than_B $end
+$var wire 1 4 B $end
+$upscope $end
+$scope module comp_2 $end
+$var wire 1 5 A $end
+$var wire 1 6 A_equal_B $end
+$var wire 1 7 A_greater_than_B $end
+$var wire 1 8 A_less_than_B $end
+$var wire 1 9 B $end
+$upscope $end
+$scope module comp_3 $end
+$var wire 1 : A $end
+$var wire 1 ; A_equal_B $end
+$var wire 1 < A_greater_than_B $end
+$var wire 1 = A_less_than_B $end
+$var wire 1 > B $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0>
+0=
+1<
+0;
+1:
+19
+08
+07
+16
+15
+14
+03
+02
+11
+10
+1/
+0.
+0-
+1,
+1+
+b111 *
+b1000 )
+b0 (
+b111 '
+b1111 &
+b111 %
+b1111 $
+0#
+1"
+0!
+$end
+#10
